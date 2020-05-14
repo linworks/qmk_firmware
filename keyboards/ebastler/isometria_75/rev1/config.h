@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x6465
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    ebastler
-#define PRODUCT         isomentria-75
+#define PRODUCT         isome tria-75
 #define DESCRIPTION     Custom Mechanical Keyboard
 
 /* key matrix size */
@@ -46,6 +46,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BACKLIGHT_PAL_MODE 2
 #define BACKLIGHT_LEVELS 5
 #define BACKLIGHT_ON_STATE 1
+
 
 /* Underglow */
 #define RGB_DI_PIN B3
