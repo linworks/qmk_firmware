@@ -41,6 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Backlight */
 #define BACKLIGHT_PIN A9
+#define BACKLIGHT_BREATHING
 #define BACKLIGHT_PWM_DRIVER PWMD1
 #define BACKLIGHT_PWM_CHANNEL 2
 #define BACKLIGHT_PAL_MODE 2
