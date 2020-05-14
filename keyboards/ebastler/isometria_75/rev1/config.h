@@ -21,10 +21,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6465
+#define PRODUCT_ID      0x1337
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    ebastler
-#define PRODUCT         isome tria-75
+#define PRODUCT         isometria-75
 #define DESCRIPTION     Custom Mechanical Keyboard
 
 /* key matrix size */
