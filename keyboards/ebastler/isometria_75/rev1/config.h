@@ -63,6 +63,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A { C15 }
 #define ENCODERS_PAD_B { C14 }
 #define ENCODER_RESOLUTION 4
+#define TAP_CODE_DELAY 10
 
 /* ADC */
 #define ADC_PIN B0
