@@ -59,10 +59,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define WS2812_DMA_CHANNEL 2
 
 
-/* Rotary encoder */
+/* Rotary encoder - set the resolution fitting your rotary.
+Most will need a value of 4. If 1 rotary click results in 2 keycodes sent
+increase the value. If you need 2 clicks for 1 keycode, decrease*/
+#define ENCODER_RESOLUTION 2
 #define ENCODERS_PAD_A { C15 }
 #define ENCODERS_PAD_B { C14 }
-#define ENCODER_RESOLUTION 4
+#define TAP_CODE_DELAY 10
 
 /* ADC */
 #define ADC_PIN B0
