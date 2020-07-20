@@ -10,9 +10,9 @@ A replacement PCB for the Cherry G80-1800 keyboard. Supports ISO and ANSI, 6u of
 
 Make example for this keyboard (after setting up your build environment) - pick your layout:
 
-    make ebastler/E80-1800/rev1:layout_6u_iso
-    make ebastler/E80-1800/rev1:layout_7u_iso
-    make ebastler/E80-1800/rev1:layout_6u_ansi
-    make ebastler/E80-1800/rev1:layout_7u_ansi
+    make ebastler/E80-1800/rev1:iso_6u
+    make ebastler/E80-1800/rev1:iso_7u
+    make ebastler/E80-1800/rev1:ansi_6u
+    make ebastler/E80-1800/rev1:ansi_7u
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
