@@ -17,20 +17,17 @@ Mod keys (All on layer 1):
 Hardware control keys (All on layer 1):
 * Up: Increase underglow Hue (Shift + Up: Decrease)
 * Down: Increase underglow brightness (Shift + Down: Decrease)
-* Right: Increase underglow saturation (Shift + RIght: Decrease)
+* Right: Increase underglow saturation (Shift + Right: Decrease)
 * Left: Toggle underglow
 * End: Toggle backlight
-* Pg Down: Decrease Backlight
-* Pg Up: Increase Backlight
+* Pg Up/Down: Increase/Decrease backlight
 
 Rotary layout (Layer 0):
-* CCW: Decrease volume
-* CW: Increase volume
+* CCW/CW: Decrease/Increase volume
 * Click: Play/Pause
 
 Rotary layout (Layer 1):
-* CCW: Previous track
-* CW: Next track
+* CCW/CW: Previous/Next track
 * Click: Mute audio
 
 Make example for this keyboard (after setting up your build environment):
