@@ -18,7 +18,7 @@ Hardware control keys (All on layer 1):
 
 Media control keys (All on layer 1):
 * Numpad 2/8: Volume down/up
-* Numpad 4/7: Prevous/Next track
+* Numpad 4/7: Previous/Next track
 * Numpad 5: Mute audio
 * Pause: Toggle play/pause
 
