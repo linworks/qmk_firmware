@@ -8,11 +8,25 @@ A replacement PCB for the Cherry G80-1800 keyboard. Supports ISO and ANSI, 6u of
 * Hardware Supported: Rev1 PCB, see Github repo linked above
 * Hardware Availability: None, feel free to order your own boards. jlcpcb compatible gerber/BOM/CPL files are included.
 
+Layer toggle on 6u bottom row keympas: right menu key
+Layer toggle on 7u bottom row keymaps: right control key
+
+Hardware control keys (All on layer 1):
+* End: Toggle backlight
+* Pg Up/Down: Increase/Decrease backlight brightness
+* Scroll Lock: Toggle backlight breathing
+
+Media control keys (All on layer 1):
+* Numpad 2/8: Volume down/up
+* Numpad 4/7: Prevous/Next track
+* Numpad 5: Mute audio
+* Pause: Toggle play/pause
+
 Make example for this keyboard (after setting up your build environment) - pick your layout:
 
-    make ebastler/E80-1800/rev1:iso_6u
-    make ebastler/E80-1800/rev1:iso_7u
-    make ebastler/E80-1800/rev1:ansi_6u
-    make ebastler/E80-1800/rev1:ansi_7u
+    make ebastler/E80-1800/rev1:layout_6u_iso
+    make ebastler/E80-1800/rev1:layout_7u_iso
+    make ebastler/E80-1800/rev1:layout_6u_ansi
+    make ebastler/E80-1800/rev1:layout_7u_ansi
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
