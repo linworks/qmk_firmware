@@ -8,6 +8,31 @@ A 75% ISO-only board with a rotary encoder, RGB underglow and single color dimma
 * Hardware Supported: Rev1 PCB, see Github repo linked above
 * Hardware Availability: None, feel free to order/manufacture parts yourself.
 
+Layer Toggle: Right menu key (to the right of ralt, left of the arrow cluster)
+
+Mod keys (All on layer 1):
+* Home: Insert
+* Backspace: Delete
+
+Hardware control keys (All on layer 1):
+* Up: Increase underglow Hue (Shift + Up: Decrease)
+* Down: Increase underglow brightness (Shift + Down: Decrease)
+* Right: Increase underglow saturation (Shift + RIght: Decrease)
+* Left: Toggle underglow
+* End: Toggle backlight
+* Pg Down: Decrease Backlight
+* Pg Up: Increase Backlight
+
+Rotary layout (Layer 0):
+* CCW: Decrease volume
+* CW: Increase volume
+* Click: Play/Pause
+
+Rotary layout (Layer 1):
+* CCW: Previous track
+* CW: Next track
+* Click: Mute audio
+
 Make example for this keyboard (after setting up your build environment):
 
     make ebastler/isometria_75/rev1:default
