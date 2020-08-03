@@ -9,12 +9,13 @@ A 75% ISO-only board with a rotary encoder, RGB underglow and single color dimma
 * Hardware Availability: None, feel free to order/manufacture parts yourself.
 
 Layer Toggle: Right menu key (to the right of ralt, left of the arrow cluster)
+Bootmagic Lite key: Escape
 
-Mod keys (All on layer 1):
+Alternate layer mod keys (All on layer 1):
 * Home: Insert
 * Backspace: Delete
 
-Hardware control keys (All on layer 1):
+Alternate layer hardware control keys (All on layer 1):
 * Up: Increase underglow Hue (Shift + Up: Decrease)
 * Down: Increase underglow brightness (Shift + Down: Decrease)
 * Right: Increase underglow saturation (Shift + Right: Decrease)
@@ -22,11 +23,11 @@ Hardware control keys (All on layer 1):
 * End: Toggle backlight
 * Pg Up/Down: Increase/Decrease backlight
 
-Rotary layout (Layer 0):
+Encoder mapping (Layer 0):
 * CCW/CW: Decrease/Increase volume
 * Click: Play/Pause
 
-Rotary layout (Layer 1):
+Encoder mapping (Layer 1):
 * CCW/CW: Previous/Next track
 * Click: Mute audio
 
