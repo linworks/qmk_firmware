@@ -8,8 +8,9 @@ A 75% ISO-only board with a rotary encoder, RGB underglow and single color dimma
 * Hardware Supported: Rev1 PCB, see Github repo linked above
 * Hardware Availability: None, feel free to order/manufacture parts yourself.
 
-Layer Toggle: Right menu key (to the right of ralt, left of the arrow cluster)
 Bootmagic Lite key: Escape
+
+Layer Toggle: Right menu key (to the right of ralt, left of the arrow cluster)
 
 Alternate layer mod keys (All on layer 1):
 * Home: Insert
