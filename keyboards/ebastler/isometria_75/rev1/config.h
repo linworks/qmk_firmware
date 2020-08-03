@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x6562
+#define VENDOR_ID       0x6562 // "eb"
 #define PRODUCT_ID      0x1337
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    ebastler
@@ -59,13 +59,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define WS2812_DMA_CHANNEL 2
 
 
-/* Rotary encoder - set the resolution fitting your rotary.
-Most will need a value of 4. If 1 rotary click results in 2 keycodes sent
+/* Rotary encoder - set the resolution fitting your encoder.
+Most will need a value of 4. If 1 encoder click results in 2 keycodes sent
 increase the value. If you need 2 clicks for 1 keycode, decrease*/
 #define ENCODER_RESOLUTION 2
 #define ENCODERS_PAD_A { C15 }
 #define ENCODERS_PAD_B { C14 }
 #define TAP_CODE_DELAY 10
 
-/* ADC */
+/* ADC - will be used for battery monitoring once BT support is added */
 #define ADC_PIN B0
