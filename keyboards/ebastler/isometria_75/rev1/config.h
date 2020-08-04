@@ -57,6 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define WS2812_PWM_PAL_MODE 2
 #define WS2812_DMA_STREAM STM32_DMA1_STREAM2
 #define WS2812_DMA_CHANNEL 2
+#define RGBLIGHT_SLEEP
 
 
 /* Rotary encoder - set the resolution fitting your encoder.
