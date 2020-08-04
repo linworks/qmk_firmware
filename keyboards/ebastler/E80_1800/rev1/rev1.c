@@ -1,5 +1,7 @@
 #include "rev1.h"
 
+static bool is_suspended, backlight_enabled;
+
 void matrix_init_kb(void) {
   matrix_init_user();
   led_init_ports();
@@ -53,3 +55,27 @@ void oled_task_user(void) {
     render_layer_state();
 }
 #endif
+
+/* turn OLED (if enabled) and backlight (if enabled) off on USB host suspend */
+void suspend_power_down_user(void) {
+#ifdef OLED_DRIVER_ENABLE
+    oled_off();
+#endif
+#ifdef BACKLIGHT_ENABLE
+    if (!is_suspended) {
+        is_suspended     = true;
+        backlight_enabled = is_backlight_enabled();
+        backlight_disable();
+    }
+#endif
+}
+
+/* turn backlight (if enabled) on on USB host wakeup */
+void suspend_wakeup_init_user(void) {
+#ifdef BACKLIGHT_ENABLE
+    is_suspended = false;
+    if (backlight_enabled) {
+        backlight_enable();
+    }
+#endif
+}
