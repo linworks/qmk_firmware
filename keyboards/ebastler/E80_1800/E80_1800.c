@@ -1,4 +1,4 @@
-#include "rev1.h"
+#include "E80_1800.h"
 
 void matrix_init_kb(void) {
   matrix_init_user();

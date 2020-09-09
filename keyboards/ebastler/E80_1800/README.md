@@ -27,9 +27,9 @@ Media control keys (All on layer 1):
 
 Make example for this keyboard (after setting up your build environment) - pick your layout:
 
-    make ebastler/E80-1800/rev1:iso_6u
-    make ebastler/E80-1800/rev1:iso_7u
-    make ebastler/E80-1800/rev1:ansi_6u
-    make ebastler/E80-1800/rev1:ansi_7u
+    make ebastler/E80_1800:iso_6u
+    make ebastler/E80_1800:iso_7u
+    make ebastler/E80_1800:ansi_6u
+    make ebastler/E80_1800:ansi_7u
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).

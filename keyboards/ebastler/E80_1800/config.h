@@ -47,6 +47,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BACKLIGHT_PAL_MODE 2
 #define BACKLIGHT_LEVELS 6
 #define BACKLIGHT_ON_STATE 1
+#define BACKLIGHT_PWM_OUTPUT_FREQUENCY 1000 // Currently only does something if compiled with an unmerged PR. Does no harm without it.
 
 /* ADC - will be used once BT support is added*/
 #define ADC_PIN C0
@@ -63,5 +64,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define I2C1_TIMINGR_SCLH   3U
 #define I2C1_TIMINGR_SCLL   9U
 
-/* General OLED settings */
+/* Set the OLED timeout to 30 s */
 #define OLED_TIMEOUT 30000
